@@ -10,7 +10,7 @@
 
 二、使用BIOS_Backup_TooKit文件夹下的BIOS_Backup_TooKit工具读取bios并存储下来。（不用改名，默认就行）
 
-三、使用EZH2O文件下的EzH2O软件读取刚才保存的bios文件，使用删除模块。点击组件---模块---删除现有的模块，GUID选择“11D378C2-B472-412F-AD87-1BE4CD8B33A6”，之后点击另存为一个新的bio的rom文件。
+三、使用EZH2O文件下的EzH2O软件读取刚才保存的bios文件，使用删除模块。点击组件---模块---删除现有的模块，GUID选择“11D378C2-B472-412F-AD87-1BE4CD8B33A6”，之后点击另存为一个新的bio的rom文件。将rom文件放到BR文件夹下。
 
 四。准备一个空的U盘，使用FlashBoot文件夹下的flashboot-2.2e-setup软件进行制作dos镜像，用rufus-3.13同样可以写入镜像，之后将下载的BR文件夹拷入如U盘根目录，打开第一步下载的Intel ME Firmware文件夹，找到Flash Programming Tool的文件夹下的Dos文件夹，最后将DOS下的两个文件（fparts,txt\fpt.exe）拷入到U盘的BR文件下。
 
