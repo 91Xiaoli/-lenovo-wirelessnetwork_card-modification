@@ -1,0 +1,1 @@
+fpt.exe -d BiosBak.rom -bios

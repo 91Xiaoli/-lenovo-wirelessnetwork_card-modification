@@ -1,0 +1,4 @@
+
+Error 28: Protected Range Registers are currently set by BIOS, preventing flash access.
+Please contact the target system BIOS vendor for an option to disable Protected Range Registers.
+
